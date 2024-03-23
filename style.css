@@ -1,0 +1,354 @@
+        /* الاعدادات الاساسية و الخط */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    font-family: "Tajawal", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+        /* جسم الموقع*/
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+        /*اكمال المعلومات*/
+.bodyg{
+    background: url(bac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hh1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 20px;
+    padding: 20px;
+}
+.login {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+.buta{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.re{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+.sub5 {
+    background: #9c5245;
+    text-decoration: none;
+    grid-column: 1 / 3;
+    grid-row: 6;
+    border-radius: 18px;
+    border: none;
+    padding: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.sub {
+    background: #ffffff;
+    text-decoration: none;
+    grid-column: 1 / 3;
+    grid-row: 6;
+    border-radius: 18px;
+    border: none;
+    padding: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.boton {
+    display: grid;
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+}
+
+input.in1 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+input.in2 {
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+input.in3 {
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+input.in4 {
+    grid-column: 2 / 3;
+    grid-row: 4;
+}
+input.in6 {
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
+.in1, .in2, .in3, .in6 {
+    border-radius: 18px;
+    padding: 15px;
+}
+.in5, .in4 {
+    border-radius: 18px;
+    padding: 15px;
+}
+.in1, .in2, .in3, .in6, .in4, .in5 {
+    border:none;
+    box-shadow: 1px 4px 0px 0px rgba(0, 0, 0, .2);
+    color: #858585;
+    font-size: 1rem;
+}
+
+        /* صفحة تسجيل الدخول */
+
+.bodylog {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #7C463C;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+.icon{
+    color: #ffffff;
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fa-x-twitter, .fa-facebook-f, .fa-google{
+    margin: 13px;
+    padding: 15px 25px;
+    border-radius: 18px;
+    color: #ffffff;
+    background-color: #7C463C;
+    box-shadow: 1px 4px 0px 0px rgba(0, 0, 0, .2);
+}
+.pagee {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.form {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ine, .inpa {
+    outline: none;
+    background-color: #844d43;
+    border: none;
+    color: #EEEEEE;
+    padding: 10px;
+    border-radius: 18px;
+    box-shadow: 1px 4px 0px 0px rgba(0, 0, 0, .2);
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: white;
+    margin-right: 10px;
+}
+.subl{
+    font-weight: 500;
+    text-decoration: none;
+    color: #7C463C;
+}
+img.loogo {
+    position: relative;
+    bottom: 100px;
+    height: 100%;
+    width: 14rem;
+}
+.iimg {
+    display: flex;
+    justify-content: center;
+}
+p.picon {
+    font-size: 0.8rem;
+    font-weight: 400;
+    position: relative;
+    top: 80px;
+}
+.dp{
+    display: flex;
+    justify-content: center;
+}
+.ap{
+    text-decoration: none;
+    color: #B9CDFF;
+}
+.sub1 {
+    text-decoration: none;
+    grid-column: 1 / 3;
+    grid-row: 4;
+    border-radius: 18px;
+    padding: 10px;
+    border: none;
+}
+        /*صفحة اكمال المعلومات */
+body.bodym {
+    background: url(bac2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.inl {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+.dn1, .dn2, .dn3 {
+    display: flex;
+    background-color: #ffffff;
+    padding: 15px;
+    border-color: #3238597A;
+    border: solid 1px;
+    padding: 10px 35px;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dsu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+p.p2 {
+    color: black;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 1.5rem;
+}
+input[type="submit"] {
+    padding: 10px 35px;
+    background-color: #844d43;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.wavy {
+    position: relative;
+    top: 15px;
+    margin-bottom: -200px;
+    z-index: -99;
+    width: 100%;
+    height: 287px;
+}
+.ddbd {
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 0;
+}
+.ph {
+    margin: 20px;
+    padding: 20px;
+}
+.wavyy {
+    margin-bottom: 9px;
+}
+
+
+        /*ريسبونس الموقع*/
+
+@media (max-width: 1000px) {
+    .bodyg{
+        background: none;
+    }
+    .hh1{
+        color: #ffffff;
+        margin-bottom: -10px;
+    }
+    body {
+        
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    p.p2 {
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        margin: 0px;
+        font-size: 1.5rem;
+    }
+    .ph {
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+}
+    .login {
+        background-image: url(wavy.png);
+        background-repeat: no-repeat;
+        background-color: white;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    body.bodym{
+        background: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ddbd {
+        position: relative;
+        bottom: 133px;
+        right: 10px;
+        background: none;
+        margin-top: 0px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+@media (min-width: 1000px) {
+    .wavy{
+        display: none;
+    }
+    .wavyy{
+        display: none;
+    }
+}
